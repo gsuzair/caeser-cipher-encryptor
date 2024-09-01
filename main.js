@@ -5,7 +5,6 @@ function caesarCipherEncryptor(string, key) {
     let charCode = ''
 
     key = key % 26;
-    console.log(key)
 	for(let i = 0; i < myArray.length; i++){
 		char = myArray[i]
 		charCode = char.charCodeAt(0);
